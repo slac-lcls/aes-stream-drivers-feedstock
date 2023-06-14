@@ -4,7 +4,7 @@ on:
     branches:
       - master
     tag:
-      - build
+      - build-*
 
 jobs:
   conda_build_and_upload:
