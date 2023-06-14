@@ -1,5 +1,5 @@
 {% set name = "aes-stream-drivers" %}
-{% set version = "5.17.3" %}
+{% set version = "5.19.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/slaclab/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: f649de81143b8afe3c1c148aa6b2949357d719737aae0b0443500af4d8fd99cd
+  sha256: 27bdd0c37a34a184c0a7eab9941091e3138a8b3d3d55ac3062c13b39f4c9a8fb
 
 build:
   skip: True  # [win or osx]
-  number: 3
+  number: 4
 
 about:
   home: https://jupp0r.github.io/prometheus-cpp
