@@ -1,10 +1,8 @@
 name: conda_build_and_upload
 on:
   push:
-    branches:
-      - master
     tag:
-      - build-*
+      - build*
 
 jobs:
   conda_build_and_upload:
